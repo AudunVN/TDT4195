@@ -1,0 +1,92 @@
+[
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  -DGLFW_INCLUDE_NONE -DPROJECT_SOURCE_DIR=\"\\\"C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1\\\"\" @CMakeFiles/gloom.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -std=c++11 -g   -o CMakeFiles\\gloom.dir\\gloom\\src\\main.cpp.obj -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\src\\main.cpp\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/src/main.cpp"
+},
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  -DGLFW_INCLUDE_NONE -DPROJECT_SOURCE_DIR=\"\\\"C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1\\\"\" @CMakeFiles/gloom.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -std=c++11 -g   -o CMakeFiles\\gloom.dir\\gloom\\src\\program.cpp.obj -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\src\\program.cpp\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/src/program.cpp"
+},
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DGLFW_INCLUDE_NONE -DPROJECT_SOURCE_DIR=\"\\\"C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1\\\"\" @CMakeFiles/gloom.dir/includes_C.rsp -g   -o CMakeFiles\\gloom.dir\\gloom\\vendor\\glad\\src\\glad.c.obj   -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\vendor\\glad\\src\\glad.c\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/vendor/glad/src/glad.c"
+},
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build/gloom/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\context.c.obj   -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\vendor\\glfw\\src\\context.c\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/vendor/glfw/src/context.c"
+},
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build/gloom/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\init.c.obj   -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\vendor\\glfw\\src\\init.c\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/vendor/glfw/src/init.c"
+},
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build/gloom/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\input.c.obj   -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\vendor\\glfw\\src\\input.c\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/vendor/glfw/src/input.c"
+},
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build/gloom/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\monitor.c.obj   -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\vendor\\glfw\\src\\monitor.c\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/vendor/glfw/src/monitor.c"
+},
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build/gloom/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\vulkan.c.obj   -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\vendor\\glfw\\src\\vulkan.c\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/vendor/glfw/src/vulkan.c"
+},
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build/gloom/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\window.c.obj   -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\vendor\\glfw\\src\\window.c\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/vendor/glfw/src/window.c"
+},
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build/gloom/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_init.c.obj   -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\vendor\\glfw\\src\\win32_init.c\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/vendor/glfw/src/win32_init.c"
+},
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build/gloom/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj   -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\vendor\\glfw\\src\\win32_joystick.c\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/vendor/glfw/src/win32_joystick.c"
+},
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build/gloom/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj   -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\vendor\\glfw\\src\\win32_monitor.c\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/vendor/glfw/src/win32_monitor.c"
+},
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build/gloom/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_time.c.obj   -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\vendor\\glfw\\src\\win32_time.c\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/vendor/glfw/src/win32_time.c"
+},
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build/gloom/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_thread.c.obj   -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\vendor\\glfw\\src\\win32_thread.c\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/vendor/glfw/src/win32_thread.c"
+},
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build/gloom/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_window.c.obj   -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\vendor\\glfw\\src\\win32_window.c\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/vendor/glfw/src/win32_window.c"
+},
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build/gloom/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\wgl_context.c.obj   -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\vendor\\glfw\\src\\wgl_context.c\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/vendor/glfw/src/wgl_context.c"
+},
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build/gloom/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\egl_context.c.obj   -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\vendor\\glfw\\src\\egl_context.c\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/vendor/glfw/src/egl_context.c"
+},
+{
+  "directory": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/build/gloom/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj   -c \"C:\\Users\\AUDUNVN\\Desktop\\git repos\\TDT4195\\A1\\gloom\\vendor\\glfw\\src\\osmesa_context.c\"",
+  "file": "C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/vendor/glfw/src/osmesa_context.c"
+}
+]

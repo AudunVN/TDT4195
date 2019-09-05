@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\src\main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\src\program.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\glad\src\glad.c">
+      <Filter>vendors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\src\gloom\camera.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\src\gloom\gloom.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\src\gloom\shader.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\src\program.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\shaders\simple.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\shaders\simple.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\.gitignore" />
+    <None Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\.gitmodules" />
+    <None Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\CMakeLists.txt" />
+    <None Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\README.rst" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{1DA97E92-475E-315A-A054-C982F332EDF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{D9FF1437-4055-3F00-B1ED-11BDE9B88973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{BEC6851D-6B0D-3B09-950A-7FE3999C9446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendors">
+      <UniqueIdentifier>{FB7EE405-D8DC-3354-9962-A9C6EC1FB737}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
