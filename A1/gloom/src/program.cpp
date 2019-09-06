@@ -60,11 +60,32 @@ void runProgram(GLFWwindow* window)
 
     // Set up your scene here (create Vertex Array Objects, etc.)
     std::vector<float> vertices = {
-         0.6f, -0.8f, -1.2f,
-         0.0f,  0.4f,  0.0f,
-        -0.8f, -0.2f,  1.2f,
+        /* a triangle */
+         1.0f,   1.0f,   0.1f,
+         0.5f,   0.5f,   0.1f,
+         1.0f,   0.5f,   0.1f,
+        /* a triangle */
+        -1.0f,   1.0f,   0.2f,
+        -0.5f,   0.5f,   0.2f,
+        -1.0f,   0.5f,   0.2f,
+        /* a triangle */
+        -1.0f,  -1.0f,   0.3f,
+        -0.5f,  -0.5f,   0.3f,
+        -1.0f,  -0.5f,   0.3f,
+        /* a triangle */
+         1.0f,  -1.0f,   0.4f,
+         0.5f,  -0.5f,   0.4f,
+         1.0f,  -0.5f,   0.4f,
+        /* a triangle */
+        -0.25f,  0.25f,  0.5f,
+         0.25f, -0.25f,  0.5f,
+         0.25f,  0.25f,  0.5f,
+        /* a triangle */
+        -0.67f,  0.12f,  0.1f,
+         0.55f, -0.38f,  0.2f,
+         0.17f,  0.55f,  0.3f,
     };
-    std::vector<unsigned int> indices = {0, 1, 2};
+    std::vector<unsigned int> indices = {0, 1, 2, 3, 4, 5, 6, 7, 8, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17};
     GLuint test_vao = vaoGen(vertices, indices);
     glBindVertexArray(test_vao);
 
