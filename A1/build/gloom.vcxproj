@@ -260,8 +260,6 @@
     <ClInclude Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\src\program.hpp" />
     <None Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\shaders\simple.frag" />
     <None Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\shaders\simple.vert" />
-    <None Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\.gitignore" />
-    <None Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\.gitmodules" />
     <None Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\CMakeLists.txt" />
     <None Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\README.rst" />
     <ClCompile Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\glad\src\glad.c">
