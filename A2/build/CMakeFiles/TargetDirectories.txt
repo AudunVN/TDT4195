@@ -1,4 +1,0 @@
-C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A2/build/CMakeFiles/gloom.dir
-C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A2/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A2/build/gloom/vendor/glfw/CMakeFiles/ALL_BUILD.dir
-C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A2/build/gloom/vendor/glfw/src/CMakeFiles/glfw.dir
