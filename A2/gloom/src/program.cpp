@@ -46,6 +46,62 @@ GLuint vaoGen(std::vector<float> vertices, std::vector<unsigned int> indices) {
     return array;
 }
 
+GLuint vaoGenWithColour(std::vector<float> vertices, std::vector<unsigned int> indices, std::vector<float> colours) {
+    GLuint array;
+    GLuint vbo_buffer;
+    GLuint index_buffer;
+    GLuint colour_buffer;
+
+    // generates one VAO
+    glGenVertexArrays(1, &array);
+    glBindVertexArray(array);
+
+    // generates one VBO
+    glGenBuffers(1, &vbo_buffer);
+    glBindBuffer(GL_ARRAY_BUFFER, vbo_buffer);
+
+    // load data into VBO
+    glBufferData(
+        GL_ARRAY_BUFFER,
+        sizeof(int)*vertices.size(),
+        vertices.data(),
+        GL_STATIC_DRAW
+    );
+
+    glEnableVertexAttribArray(0);
+
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);
+
+    // generate index array buffer
+    glGenBuffers(1, &index_buffer);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, index_buffer);
+
+    // load data into index array buffer
+    glBufferData(
+        GL_ELEMENT_ARRAY_BUFFER,
+        sizeof(unsigned int)*indices.size(),
+        indices.data(),
+        GL_STATIC_DRAW
+    );
+
+    // generate colour buffer
+    glGenBuffers(1, &colour_buffer);
+    glBindBuffer(GL_ARRAY_BUFFER, colour_buffer);
+
+    // load data into colour buffer
+    glBufferData(
+        GL_ARRAY_BUFFER,
+        sizeof(float)*colours.size(),
+        colours.data(),
+        GL_STATIC_DRAW
+    );
+
+    glEnableVertexAttribArray(1);
+    glVertexAttribPointer(1, 4, GL_FLOAT, GL_FALSE, 0, 0);
+
+    return array;
+}
+
 void runProgram(GLFWwindow* window)
 {
     // Enable depth (Z) buffer (accept "closest" fragment)
@@ -55,11 +111,19 @@ void runProgram(GLFWwindow* window)
     // Configure miscellaneous OpenGL settings
     glEnable(GL_CULL_FACE);
 
+    // Enable colour blending
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
     // Set default colour after clearing the colour buffer
     glClearColor(0.3f, 0.5f, 0.8f, 1.0f);
 
     // Set up your scene here (create Vertex Array Objects, etc.)
     std::vector<float> vertices = {
+        /* a triangle */
+         0.6f, -0.8f, -1.2f,
+         0.0f,  0.4f,  0.0f,
+        -0.8f, -0.2f,  1.2f,
         /* a triangle */
          0.5f,  0.5f, 0.0f,
          0.9f,  0.1f, 0.0f,
@@ -69,8 +133,24 @@ void runProgram(GLFWwindow* window)
         -0.1f, -0.9f, 0.0f,
         -0.5f, -0.1f, 0.0f,
     };
-    std::vector<unsigned int> indices = {0, 1, 2, 4, 3, 5};
-    GLuint test_vao = vaoGen(vertices, indices);
+
+    std::vector<float> colours = {
+        /* a triangle */
+        0.1647f, 0.8314f, 1.0f, 1.0f,
+        0.1725f, 0.3529f, 0.6274f, 1.0f,
+        0.9921f, 0.9921f, 0.9921f, 1.0f,
+        /* a triangle */
+        0.1647f, 0.8314f, 1.0f, 0.2f,
+        0.1725f, 0.3529f, 0.6274f, 0.5f,
+        0.9921f, 0.9921f, 0.9921f, 0.8f,
+        /* a triangle */
+        0.1647f, 0.8314f, 1.0f, 1.0f,
+        0.1725f, 0.3529f, 0.6274f, 1.0f,
+        0.9921f, 0.9921f, 0.9921f, 1.0f,
+    };
+    
+    std::vector<unsigned int> indices = {0, 1, 2, 4, 3, 5, 6, 7, 8};
+    GLuint test_vao = vaoGenWithColour(vertices, indices, colours);
     glBindVertexArray(test_vao);
 
     Gloom::Shader shader;

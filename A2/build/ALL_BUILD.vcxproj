@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6F1E8C00-3A7E-387C-AAB2-A0DC2F5F6186}</ProjectGuid>
+    <ProjectGuid>{34089B42-273F-33F2-9218-D7EDE768B99F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -62,7 +62,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\src;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\glad\include;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\glfw\include;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\glm;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\src;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\vendor\glad\include;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\vendor\glfw\include;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\vendor\glm;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\vendor\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -72,7 +72,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\src;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\glad\include;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\glfw\include;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\glm;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\src;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\vendor\glad\include;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\vendor\glfw\include;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\vendor\glm;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\vendor\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -82,7 +82,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\src;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\glad\include;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\glfw\include;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\glm;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\src;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\vendor\glad\include;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\vendor\glfw\include;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\vendor\glm;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\vendor\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -92,7 +92,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\src;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\glad\include;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\glfw\include;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\glm;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\gloom\vendor\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\src;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\vendor\glad\include;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\vendor\glfw\include;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\vendor\glm;C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\gloom\vendor\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -103,14 +103,14 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\build\gloom\vendor\glfw\src\glfw.vcxproj">
-      <Project>{0064A0D2-CE40-3D3E-BBE4-B9E2EA4106E6}</Project>
+    <ProjectReference Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\build\gloom\vendor\glfw\src\glfw.vcxproj">
+      <Project>{3D3B6203-5CC9-3766-965F-DE404DDD147B}</Project>
       <Name>glfw</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\build\gloom.vcxproj">
-      <Project>{A96F4CB6-6334-3264-964A-ABEC0F1916E7}</Project>
+    <ProjectReference Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\build\gloom.vcxproj">
+      <Project>{AD80E00B-D5CF-39CD-883F-6CF5DA6B0103}</Project>
       <Name>gloom</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

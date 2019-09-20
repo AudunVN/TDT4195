@@ -47,10 +47,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1"
+CMAKE_SOURCE_DIR = "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\build"
+CMAKE_BINARY_DIR = "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,14 +79,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all:
-	cd /d C:\Users\AUDUNVN\Desktop\GITREP~1\TDT4195\A1\build && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\build\CMakeFiles" "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\build\gloom\vendor\glfw\CMakeFiles\progress.marks"
-	cd /d C:\Users\AUDUNVN\Desktop\GITREP~1\TDT4195\A1\build && $(MAKE) -f CMakeFiles\Makefile2 gloom/vendor/glfw/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\build\CMakeFiles" 0
+	cd /d C:\Users\AUDUNVN\Desktop\GITREP~1\TDT4195\A2\build && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\build\CMakeFiles" "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\build\gloom\vendor\glfw\CMakeFiles\progress.marks"
+	cd /d C:\Users\AUDUNVN\Desktop\GITREP~1\TDT4195\A2\build && $(MAKE) -f CMakeFiles\Makefile2 gloom/vendor/glfw/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\AUDUNVN\Desktop\GITREP~1\TDT4195\A1\build && $(MAKE) -f CMakeFiles\Makefile2 gloom/vendor/glfw/clean
+	cd /d C:\Users\AUDUNVN\Desktop\GITREP~1\TDT4195\A2\build && $(MAKE) -f CMakeFiles\Makefile2 gloom/vendor/glfw/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,12 +96,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\AUDUNVN\Desktop\GITREP~1\TDT4195\A1\build && $(MAKE) -f CMakeFiles\Makefile2 gloom/vendor/glfw/preinstall
+	cd /d C:\Users\AUDUNVN\Desktop\GITREP~1\TDT4195\A2\build && $(MAKE) -f CMakeFiles\Makefile2 gloom/vendor/glfw/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\AUDUNVN\Desktop\GITREP~1\TDT4195\A1\build && $(MAKE) -f CMakeFiles\Makefile2 gloom/vendor/glfw/preinstall
+	cd /d C:\Users\AUDUNVN\Desktop\GITREP~1\TDT4195\A2\build && $(MAKE) -f CMakeFiles\Makefile2 gloom/vendor/glfw/preinstall
 .PHONY : preinstall/fast
 
 # Help Target

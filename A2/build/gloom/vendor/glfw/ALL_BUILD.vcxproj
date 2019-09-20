@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6F1E8C00-3A7E-387C-AAB2-A0DC2F5F6186}</ProjectGuid>
+    <ProjectGuid>{34089B42-273F-33F2-9218-D7EDE768B99F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -103,8 +103,8 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\build\gloom\vendor\glfw\src\glfw.vcxproj">
-      <Project>{0064A0D2-CE40-3D3E-BBE4-B9E2EA4106E6}</Project>
+    <ProjectReference Include="C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\build\gloom\vendor\glfw\src\glfw.vcxproj">
+      <Project>{3D3B6203-5CC9-3766-965F-DE404DDD147B}</Project>
       <Name>glfw</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

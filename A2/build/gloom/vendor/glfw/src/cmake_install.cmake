@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A1/gloom/vendor/glfw/src
+# Install script for directory: C:/Users/AUDUNVN/Desktop/git repos/TDT4195/A2/gloom/vendor/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/gloom")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/gloom")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -47,10 +47,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1"
+CMAKE_SOURCE_DIR = "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\build"
+CMAKE_BINARY_DIR = "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all:
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\build\CMakeFiles" "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\build\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\build\CMakeFiles" "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\build\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A1\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\AUDUNVN\Desktop\git repos\TDT4195\A2\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
